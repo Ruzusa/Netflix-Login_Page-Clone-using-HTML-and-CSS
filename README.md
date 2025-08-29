@@ -43,23 +43,28 @@ Netflix-Clone/
 
 ### Hero Section
 
-![Hero Section]/UI_screenshots/herosection.png)
+![Hero Section](Netflix-Login_Page-Clone-using-HTML-and-CSS
+/UI_screenshots/herosection.png)
 
 ### Trending Now
 
-![Trending Now](/UI_screenshots/trendingnow.png)
+![Trending Now](Netflix-Login_Page-Clone-using-HTML-and-CSS
+/UI_screenshots/trendingnow.png)
 
 ### More Reasons To Join
 
-![More Reasons To Join](/UI_screenshots/moreReasonsToJoin.png)
+![More Reasons To Join](Netflix-Login_Page-Clone-using-HTML-and-CSS
+/UI_screenshots/moreReasonsToJoin.png)
 
 ### FAQS
 
-![FAQS](/UI_screenshots/faqs.png)
+![FAQS](Netflix-Login_Page-Clone-using-HTML-and-CSS
+/UI_screenshots/faqs.png)
 
 ### Footer
 
-![Footer](/UI_screenshots/footer.png)
+![Footer](Netflix-Login_Page-Clone-using-HTML-and-CSS
+/UI_screenshots/footer.png)
 
 ⚡ How to Run Locally
 
