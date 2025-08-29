@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.maincontainer {
+  padding: 20px;
+  margin-block: 9%;
+  margin-inline: 40px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.backgroundimage {
+  background-image: url("images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.header {
+  margin-inline: 40px;
+  padding: 7px;
+}
+
+.navbar {
+  padding: 7px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imagediv {
+  background-image: url("images/favicon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: none center;
+  height: 80px;
+  width: 150px;
+}
+
+#signinbutton {
+  width: 80px;
+  height: 35px;
+  color: white;
+  font-size: 0.9rem;
+  background-color: red;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+#signinbutton:hover {
+  background-color: rgb(225, 7, 7);
+  cursor: pointer;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.signinform {
+  height: 20vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailfield {
+  background-color: black;
+  border: 1px solid darkgrey;
+  color: darkgrey;
+  border-radius: 4px;
+  height: 50%;
+  width: 30%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.emailfield:focus {
+  border: 2px solid white;
+}
+
+.getstartedbutton {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  height: 50%;
+  width: 15%;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.getstartedbutton:hover {
+  background-color: rgb(225, 7, 7);
+  cursor: pointer;
+  color: white;
+}
+
+/* movies list */
+
+.movieslist {
+  margin-top: 150px;
+  margin-bottom: 70px;
+  padding: 7px;
+}
+
+#trendingmovies {
+  margin-bottom: 20px;
+}
+.movies {
+  list-style-type: none;
+  display: flex;
+  overflow-x: auto;
+}
+
+.movies::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+/* more reasons to join */
+
+.morereasonstojoin {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movies a {
+  margin-inline: 10px;
+}
+
+.movies img {
+  border-radius: 8px;
+}
+
+.movies img:hover {
+  height: 205px;
+  width: 145px;
+  transition: transform 0.3s ease;
+}
+
+.movies img:hover,
+.movies a:hover {
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.cards {
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 45%;
+  width: 50%;
+  background: linear-gradient(to right, rgb(0, 0, 75), rgb(2, 60, 69));
+}
+
+.cards p {
+  padding-top: 15px;
+  color: rgba(178, 178, 178, 0.994);
+}
+
+/* frequently asked questions */
+
+.faqs {
+  margin-top: 80px;
+}
+
+details {
+  height: 70px;
+  width: 98%;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 16px;
+  background-color: rgb(49, 48, 48);
+  border-radius: 2px;
+  position: relative;
+}
+
+summary {
+  list-style: none; /* Removes default arrow */
+  cursor: pointer;
+}
+
+details:hover {
+  background-color: rgb(73, 73, 73);
+}
+/*  Remove default arrow (for most browsers)  */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Adding custom + sign at the end of summary */
+summary::after {
+  content: "+";
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+details[open] {
+  background-color: rgb(73, 73, 73);
+  border-left: 3px solid red;
+  height: fit-content;
+  margin-block: 30px;
+  line-height: 30px;
+}
+details[open] p {
+  margin-top: 20px;
+}
+
+details[open] summary::after {
+  content: "-";
+}
+
+/* get started again */
+
+.getstarted {
+  margin-top: 60px;
+}
+
+#email {
+  width: 40vw;
+}
+
+/* footer */
+
+.list {
+  gap: 10vw;
+  line-height: 30px;
+  margin-top: 30px;
+  display: flex;
+  width: max-content;
+}
+
+footer ul {
+  width: max-content;
+  list-style-type: none;
+}
+
+footer a {
+  color: darkgrey;
+}
+
+footer a:hover {
+  color: darkgrey;
+}
+
+#learnmore {
+  color: rgb(28, 150, 226);
+}
+
+/* language */
+
+.language{
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+/* netflix pakistan */
+
+#netflixpak {
+  margin-top: 50px;
+  color: rgb(182, 181, 181);
+}
+
+/* privacy */
+
+#privacy {
+  font-size: 0.9rem;
+  color: grey;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* media queries */
+
+@media (max-width: 425px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .imagediv {
+    height: 60px;
+    width: 110px;
+  }
+
+  #signinbutton {
+    height: 27px;
+    width: 55px;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .imagediv {
+    height: 40px;
+    width: 90px;
+  }
+
+  #signinbutton {
+    width: 40px;
+    height: 19px;
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .mainheading1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .emailfield {
+    height: auto;
+    width: auto;
+  }
+
+  .getstartedbutton {
+    width: auto;
+    height: auto;
+    font-size: 0.8rem;
+    margin-top: 7px;
+    padding: 4px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cards {
+    width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+  details {
+    width: auto;
+    height: max-content;
+    font-size: 0.9rem;
+  }
+
+  summary::after {
+    content: "";
+  }
+
+  details[open] summary::after {
+    content: "";
+  }
+}
+
+@media (max-width: 426px) {
+  .list {
+    flex-direction: column;
+    gap: 3vh;
+  }
+}
