@@ -39,27 +39,29 @@ Netflix-Clone/
 
 │── /images           # Background, logo, and movie posters
 
+|-- /UI_screenshots   # Project screenshots
+
 ## 📸 Screenshots
 
 ### Hero Section
 
-![Hero Section](/UI_screenshots/herosection.png)
+![Hero Section](/UI_screenshots/herosection.PNG)
 
 ### Trending Now
 
-![Trending Now](/UI_screenshots/trendingnow.png)
+![Trending Now](/UI_screenshots/trendingnow.PNG)
 
 ### More Reasons To Join
 
-![More Reasons To Join](/UI_screenshots/moreReasonsToJoin.png)
+![More Reasons To Join](/UI_screenshots/moreReasonsToJoin.PNG)
 
 ### FAQS
 
-![FAQS](/UI_screenshots/faqs.png)
+![FAQS](/UI_screenshots/faqs.PNG)
 
 ### Footer
 
-![Footer](/UI_screenshots/footer.png)
+![Footer](/UI_screenshots/footer.PNG)
 
 ⚡ How to Run Locally
 
